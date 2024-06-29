@@ -1,0 +1,149 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Outfit", sans-serif;
+    font-size: xx-small;
+    margin: 0;
+    padding: 0;
+   
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20vh 0px;
+}
+img{
+    width:100%;
+    border-radius: 10px;
+    height: 100%;
+
+}
+#main-body{
+    background-color: white;
+    padding: 1.4rem;
+    width:370px;
+    border-radius: 10px;
+}
+
+h1, h2{
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+
+}
+h1{
+    font-size:1.4rem;
+}
+
+#Preparation{
+    background-color:  hsl(330, 100%, 98%);
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#prep{
+    color:hsl(332, 51%, 32%);
+    font-weight: bolder;
+    font-size: larger;
+}
+
+hr{
+    margin: 20px 0px;;
+    opacity: .4;
+}
+.b-text{
+    font-weight: 700;
+    margin-left: 5px;
+    
+}
+
+li{
+    margin: 5px;
+    
+}
+li::marker{
+    color:hsl(332, 51%, 32%);
+    font-size:smaller ;
+}
+
+#Ingredients li::marker{
+    color:hsl(14, 45%, 36%);
+    font-size:smaller ;    
+}
+#Preparation li{
+    text-indent: -2em;
+    padding-left: 2em;
+}
+
+ul,ol{ 
+    padding-left: 0;
+    list-style-position: inside;
+}
+ul li{
+    text-indent: -1em;
+    padding-left: 1em;
+}
+ol li::marker{
+    color:hsl(14, 45%, 36%);
+    font-weight: bold;
+
+}
+ol{
+    margin-left: 15px;
+}
+ol li{
+   
+    text-indent: -14px;
+}
+
+h2{
+    font-size: large;
+    color:hsl(14, 45%, 36%);
+}
+#Ingredients h2{
+    margin-top: 20px;
+}
+table{
+    width: 100%;
+}
+table {
+    border-collapse: collapse;
+    color:hsl(14, 45%, 36%);
+    font-weight: bolder;
+}
+tr.border-bottom{
+    border-bottom:1px solid rgba(0, 0, 0, 0.123) ; 
+}
+.first-data{
+    width:50%;
+    padding:5px ;
+    padding-left: 20px;
+    color:black;
+    font-weight:500;
+    opacity: .7;
+}
+@media (max-width:375px) {
+    img{
+        padding: 0%;
+        border-radius: 0%;
+
+    }
+    #main-body{
+        width:178px;
+        padding: 5px;
+    }
+    #container{
+        display: flex;
+        padding: 0px;
+        margin: 0px;
+    }
+    h1{
+        font-size: large;
+        line-height:90%;
+    }
+    
+    body{
+        background-color: transparent;
+    }
+}
+    
